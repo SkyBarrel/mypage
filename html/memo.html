@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/template.css">
+    <link rel="stylesheet" href="../css/memo.css">
+    <title>tec_memo</title>
+</head>
+<body>
+    <p id="title">技術メモ</p>
+    <div><a href="../index.html">ホーム</a>>技術メモ</div>
+    <div id="content">
+        <p class="text_head">3Dプリンタ印刷までの流れ</p>
+        <div class="text_body">
+            <ol>
+                <li>CADで設計</li>
+                <li>設計したものをエクスポート(obj or stl)</li>
+                <li>プリンタに対応したスライスソフトにインポートしてエクスポート</li>
+                <li>プリンタの水平、クリアランス調整</li>
+                <li>microSDなりUSBtypeBなりでプリンタに送る</li>
+                <li>印刷</li>
+            </ol>
+            <ul id="cad">
+                <li>おすすめのCADは、onshape か fusion360 で、どちらも個人利用なら無料。</li>
+                <li>前者はブラウザで使えてインストール不要</li>
+                <li>osも自由だがネットワークにつながっていないと使えない。</li>
+                <li>後者はWindowsとmacOSで出来ることが多い。</li>
+                <li>CGソフトである Blender という手もある。</li>
+            </ul>
+            <a href="https://scrapbox.io/Teclub/3D%E3%83%97%E3%83%AA%E3%83%B3%E3%82%BF">いつぞやに書いたscrapboxのページ</a>
+        </div>
+        <p class="text_head">python使ったことのあるライブラリ(一部)</p>
+        <ul class="text_body">
+            <li>pyautogui : クリックとキーボード操作の自動化</li>
+            <li>keyboard : キーボード操作の検知</li>
+            <li>selenium : スクレイピング</li>
+        </ul>
+    </div>
+</body>
+</html>

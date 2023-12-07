@@ -1,0 +1,23 @@
+#name{
+    font-size:30px;
+}
+#lang,#os,#hobby,#maker{
+    position:absolute;
+    background-color: #eff;
+    width:450px;
+    height:250px;
+}
+#lang{
+    top:270px;
+}
+#os{
+    top:270px;
+    left:400px;
+}
+#hobby{
+    top:480px;
+}
+#maker{
+    top:480px;
+    left:400px;
+}

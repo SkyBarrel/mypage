@@ -1,0 +1,19 @@
+li{
+    list-style:none;
+}
+#list{
+    border: 1px solid #f3f;
+}
+#ter_css{
+    height: 300px;
+    width: 200px;
+}
+#form_text{
+    width: 530px;
+}
+#main{
+    border: 1px solid #ff3;
+}
+#menu{
+    border: 1px solid #f33;
+}
